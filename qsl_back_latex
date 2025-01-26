@@ -1,0 +1,108 @@
+\documentclass{article}
+\pagestyle{empty}
+\usepackage[papersize={5.5in,3.5in}, margin=0.2in, marginratio=1:1]{geometry}
+
+\usepackage[default]{FiraSans}
+\usepackage{xeCJK}
+
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{tabularx}
+\renewcommand{\quad}{\hspace*{2.5ex}}
+\setlength{\parindent}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcommand{\balancedVPhantom}[1]{% gives minimum vertical size
+  $\mathsurround=0pt \vcenter{\hrule width0pt height #1}$\ignorespaces
+}
+
+\begin{document}
+\begin{minipage}{\textwidth}
+    \centering {\Huge \textrm{\textbf{
+             $\Box$  EW8MDM  \,              $\Box$  RE3AAB     }}}
+\end{minipage}
+
+\vfill
+
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{Mazur Raman} \\
+    \footnotesize
+    117437, Moscow
+ \\
+    Akademika Artsimovicha st., 8
+ \\
+    Академика Арцимовича ул, 8
+ \\
+    p.o. box 18 (a/я 18) \\
+    Russian Federation
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth}
+    \begin{footnotesize}
+        \begin{tabbing}
+            % set spacing
+            ITU Zone:
+                \=  00
+                \=  00
+                \kill
+            CQ Zone:
+                \>  16 \,
+                \>  \\
+            ITU Zone:
+                \>  29 \,
+                \>  \\
+                County:
+                \>  MA-09 \\
+                \>                         $\rule{2cm}{0.15mm}$
+                    \\
+        \end{tabbing}
+    \end{footnotesize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+    \centering
+    \scriptsize
+    \framebox[\textwidth][l]{\scriptsize WITH CALL: \vphantom{$\int\limits_{\dfrac aa}$}}
+\end{minipage}
+\vfill
+\begin{minipage}{\textwidth}
+    \footnotesize Confirming the following%
+        \ %
+        QSOs%
+        :
+    \topsep3pt
+    \begin{center}
+        \begin{tabularx}{\textwidth}{|Y|Y|Y|Y|c|c|c|}
+            \hline
+            \rule{0pt}{0.125in}\bf Date & \bf UTC &\bf MHz &\bf \,\,\, Mode \,\,\, &\bf \, MY RST \, &\bf \, UR RST \, & \bf QSL\\
+            \hline
+            \hline
+            \balancedVPhantom{2em} & & & & & & PSE \; TNX\\
+            \hline
+            \balancedVPhantom{2em} & & & & & & PSE \; TNX\\
+            \hline
+            \balancedVPhantom{2em} & & & & & & PSE \; TNX\\
+            \hline
+        \end{tabularx}
+    \end{center}
+\end{minipage}
+
+\vfill
+
+\footnotesize \textbf{QTH:}
+     $\Box$  KO52lg \,
+     $\Box$  KO85rp \,
+         $\Box$  $\rule{3cm}{0.15mm}$
+\vfill
+
+\footnotesize \textbf{Rig:} \makebox[0.3\textwidth]{} \textbf{Power:} \makebox[0.1\textwidth]{} \textbf{Comments:}
+
+\vfill
+
+\textbf{Antenna:} \makebox[1cm]{}
+
+\vfill
+        ew8mdm@gmail.com
+        \\
+        +79998719726
+\hfill TNX for QSO, best regards, 73!
+\end{document}
